@@ -6,6 +6,12 @@ td {
     height: 40px;
 }
 
+.heading1 {
+    font: 12px Verdana, sans-serif;
+    background-color: red;
+    margin-bottom: 0    ;
+}
+
 tr:nth-child(odd) {
     background-color: #f0e9c5;
 }
