@@ -1,0 +1,16 @@
+body { 
+    font-family: serif;
+}
+td {
+    width: 80px;
+    height: 40px;
+}
+
+tr:nth-child(odd) {
+    background-color: #f0e9c5;
+}
+
+tr:nth-child(even) {
+    background-color: #cc0000;
+}
+
