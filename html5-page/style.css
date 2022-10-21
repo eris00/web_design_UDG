@@ -342,3 +342,14 @@ footer h2 {
     color: #F5F5F5;
     font-size: 1.5em;
 }
+
+.footer-icons {
+
+}
+
+.footer-icons img{
+    width: 30px;
+    height: 30px;
+    margin-left: 15%;
+    padding: 20px;
+}
