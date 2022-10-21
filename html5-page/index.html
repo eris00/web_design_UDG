@@ -5,37 +5,183 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>HTML 5 page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+
+    <title>Personal Blog</title>
 </head>
 <body>
 
 <header>
     <nav>
         <div class="logo">
-            <p>LOGO</p>
+            <a href="index.html"><p>LOGO</p></a>
         </div>
         <ul>
-            <li><a href="#">tech skills</a></li>
-            <li><a href="#">education</a></li>
-            <li><a href="#">skills</a></li>
-            <li><a href="#">contact</a></li>
+            <li><a href="#specialisation">main skills</a></li>
+            <li><a href="#education">education</a></li>
+            <li><a href="#skills">skills</a></li>
+            <li><a href="#contact">contact</a></li>
         </ul>
     </nav>
 </header>
 <main>
     <section class="first-section">
-        <div class="left">
-
-                <img src="me.jpeg" alt="my photo">
-
-        </div>
+            <div class="left">  
+                <img src="me.jpeg" alt="my photo"> 
+            </div>
         <div class="right">
-            <p>Software developer</p>
-            <h1>Eris Sutkovic</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi culpa vitae iste debitis mollitia suscipit dignissimos, expedita aliquid eaque aliquam nulla, obcaecati asperiores error illum vel doloribus enim maxime! Facere. lorem </p>
+            <div class="content">
+                <p class="pre-heading">Software developer</p>
+                <h1>Eris Sutkovic</h1>
+                <p class="description">I am a final year student at the Faculty of Information Systems and Technologies.
+                    Highly interested in web development. I have experience in web development.
+Apart from studying Information Systems And Technologies, I have also finished a
+couple of courses for web development and have created a couple of websites and
+web apps.</p>
+            </div>
+            <div class="buttons">
+                <a href="#">Download CV</a>
+                <a href="#contact">Contact me</a>
+            </div>
+        </div>
+    </section>
+    <a id="specialisation"></a>
+    <section class="specialisation">
+        <div class="section-heading">
+            <h2>My specialisation</h2>
+        </div>
+        <div class="element-wrapper">
+
+            <div class="element">
+                <div class="icon">
+                    <img src="icons/web.png" alt="icon1">
+                </div>
+                <div class="element-heading">
+                    <h2>Web Development</h2>
+                </div>
+                <div class="element-desc">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam nulla, deserunt explicabo ipsum numquam itaque perspiciatis omnis officia quisquam velit tenetur excepturi saepe alias aliquam esse nobis aliquid earum quasi.
+                </div>
+            </div>
+
+            <div class="element">
+                <div class="icon">
+                    <img src="icons/android.png" alt="icon1">
+                </div>
+                <div class="element-heading">
+                    <h2>Android Development</h2>
+                </div>
+                <div class="element-desc">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam nulla, deserunt explicabo ipsum numquam itaque perspiciatis omnis officia quisquam velit tenetur excepturi saepe alias aliquam esse nobis aliquid earum quasi.
+                </div>
+            </div>
+
+            <div class="element">
+                <div class="icon">
+                    <img src="icons/ai.png" alt="icon1">
+                </div>
+                <div class="element-heading">
+                    <h2>Artifitial Intelligence</h2>
+                </div>
+                <div class="element-desc">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam nulla, deserunt explicabo ipsum numquam itaque perspiciatis omnis officia quisquam velit tenetur excepturi saepe alias aliquam esse nobis aliquid earum quasi.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a id="education"></a>
+    <section class="education">
+        <div class="section-heading">
+            <h2>Education</h2>
+        </div>
+        <div class="education-wrapper">
+            <article>
+                <div class="edu-img"><img src="icons/udg-logo.png" alt="udg"></div>
+                <div class="edu-content">
+                    <h3>University of Donja Gorica</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde soluta blanditiis voluptatibus fuga nemo rem quam at modi aperiam, suscipit tenetur, ducimus voluptatem. Iste corporis totam blanditiis soluta alias maxime. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, suscipit? Repudiandae voluptatum enim distinctio aliquam incidunt quo dolorum? Ad quos quia officia quod id modi aliquam iusto voluptatibus neque eum! lorem lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, illum temporibus ullam porro eligendi magni? Accusantium porro pariatur minus, sit quaerat optio hic perspiciatis, dolore veniam </p>
+                </div>
+            </article>
+
+            <article>
+                <div class="edu-img"><img src="icons/ita-logo.png" alt="udg"></div>
+                <div class="edu-content">
+                    <h3>ITAcademy</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde soluta blanditiis voluptatibus fuga nemo rem quam at modi aperiam, suscipit tenetur, ducimus voluptatem. Iste corporis totam blanditiis soluta alias maxime. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, suscipit? Repudiandae voluptatum enim distinctio aliquam incidunt quo dolorum? Ad quos quia officia quod id modi aliquam iusto voluptatibus neque eum! lorem lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, illum temporibus ullam porro eligendi magni? Accusantium porro pariatur minus, sit quaerat optio hic perspiciatis, dolore veniam </p>
+                </div>
+            </article>
+
+            <article>
+                <div class="edu-img"><img src="icons/devlab-logo.png" alt="udg"></div>
+                <div class="edu-content">
+                    <h3>Developers Lab</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde soluta blanditiis voluptatibus fuga nemo rem quam at modi aperiam, suscipit tenetur, ducimus voluptatem. Iste corporis totam blanditiis soluta alias maxime. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, suscipit? Repudiandae voluptatum enim distinctio aliquam incidunt quo dolorum? Ad quos quia officia quod id modi aliquam iusto voluptatibus neque eum! lorem lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, illum temporibus ullam porro eligendi magni? Accusantium porro pariatur minus, sit quaerat optio hic perspiciatis, dolore veniam </p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <a id="skills"></a>
+    <section class="skills">
+        <div class="section-heading">
+            <h2> My Skills</h2>
+        </div>
+        <div class="skills-wrapper">
+            <div class="tech-skill">
+                <h3>Tech skills</h3>
+                <ul>
+                    <li>JAVA</li>
+                    <li>JS, React</li>
+                    <li>Python</li>
+                    <li>PHP, Laravel</li>
+                    <li>SQL</li>
+                    <li>Use Case modeling</li>
+                </ul>
+            </div>
+            <div class="design-skill">
+                <h3>Design skills</h3>
+                <ul>
+                    <li>Adobe Photoshop</li>
+                    <li>Figma</li>
+                    <li>Illustrator</li>
+                    <li>Adobe XD</li>
+                    <li>HTML/CSS</li>
+                    <li>Material UI</li>
+                </ul>
+            </div>
+        </div>  
+    </section>
+
+    <a id="contact"></a>
+    <section class="contact">
+        <div class="section-heading">
+            <h2>Contact me</h2>
+            <div class="contact-wrapper">
+                <div class="form">
+                    <form action="">
+                        <input class="inp" type="text" value="First name">
+                        <input class="inp" type="email" value="example@email.com">
+                        <input class="inp" type="text" value="Subject">
+                        <textarea name="message" cols="30" rows="10"></textarea>
+                        <input type="submit" class="sbm-btn" value="send">
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
 </main>
+<footer>
+    <h2>Social</h2>
+   
+    <i class="fa-brands fa-github"></i>
+    <i class="fa-brands fa-github"></i>
+    <i class="fa-brands fa-github"></i>
+</footer>
 
 </body>
 </html>
