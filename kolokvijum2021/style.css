@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFF;
+    color: #111;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 60vh;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    width: 30%;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+.info {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}   
+ 
+.heading {
+    display: flex;
+    flex-direction: row;
+    background-color: #313131;
+    height: 25vh;
+}
+
+.heading h1 {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+
+
+}
+
+.social {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #FFF;     
+}
+
+.paragraph {
+    width: 100%;
+    height: 10vh;
+    background-color: #111;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.paragraph p {
+    margin-left: 2%
+}
+
+nav {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.btn {
+    width: 30%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 1.6em;
+    flex-direction: column;
+}
+
+
+.home {
+    background-color: #3C99DC;
+}
+
+.resume {
+    background-color: #006600;
+}
+
+.work {
+    background-color: #FFFF00;
+}
+
+.contact {
+    background-color: #D50000;
+}
+
+.mid-section {
+    width: 100%;
+    height: 30vh;
+    background-color: #3C99DC;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.mid-section h2, p {
+    margin-left: 2%;
+}
+
+.skills {
+    width: 100%;
+
+}
+
+.skill-info {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.skill-info h2, p {
+    margin-left: 2%;
+}
+
+.skill-bars {
+    width: 100%;
+    height: 30vh;
+}
+
+.html5 {
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 2%;
+}
+
+.css3 {
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 2%;
+}
+
+progress {
+    width: 98%;
+    background-color: #006600;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+label {
+    font-size: 1.4em;
+}
