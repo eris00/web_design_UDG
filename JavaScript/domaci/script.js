@@ -3,11 +3,10 @@
 function countElectricityBill(e) {
     e.preventDefault();
     
-    let date = document.getElementById("date")
+    let date = document.getElementById("date").value
     let price = Number(document.getElementById("price").value);
-    // console.log(price.value)
 
-    let fullDate = (date.value)
+    let fullDate = (date)
     let dateArray = fullDate.split("-")
     let day = dateArray[2];
     if (day <= 5) {

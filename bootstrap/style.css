@@ -1,0 +1,23 @@
+.box {
+    background-color: lightblue;
+    border: 1px solid blue;
+    min-height: 30vh;
+    font-size: 2rem;
+}
+
+.header-container {
+    background-color: yellow;
+    height: 50vh;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("img/popcorn-backgr.jpg");
+}
+
+.main-heading {
+    text-align: center;
+    color: #FFF;
+    font-size: 6em;
+    padding: 5%;
+}
+
+
+
